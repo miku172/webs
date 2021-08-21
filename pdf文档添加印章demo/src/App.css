@@ -34,15 +34,16 @@ div {
 }
 .RightSide {
   flex: 6;
-  height: 100%;
+  height: 66%;
   width: 80vw;
 }
 .Document {
   flex-direction: column;
   overflow-y: auto;
   overflow-x: hidden;
+  border: 1px #333 solid;
 }
 .ContentPage {
   border: 1px #333 solid;
-  overflow: hidden;
+  /* overflow: hidden; */
 }

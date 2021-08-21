@@ -1,0 +1,48 @@
+div {
+  display: flex;
+}
+.App {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.LeftSide {
+  border: 1px green solid;
+  flex: 1;
+  height: 100%;
+  width: 20vw;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.LeftItem {
+  width: 100px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  position: relative;
+  z-index: 9999;
+  background-color: beige;
+  overflow: hidden;
+  margin-top: 20%;
+  justify-content: center;
+}
+.RightSide {
+  flex: 6;
+  height: 100%;
+  width: 80vw;
+}
+.Document {
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.ContentPage {
+  border: 1px #333 solid;
+  overflow: hidden;
+}
